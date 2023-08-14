@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  background: #ffffff;
+  
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+       background-color: #333;
+       margin-top: 0px;
+       font-size: larger;
+       font-weight: bold;
+  }
+
+  h1 {
+  font-size: xx-large;
+  font-family: "Roboto";
+
+  }
+  .nav {
+    float: right;
+    background-color: black;
+  }
+  
+  .nav a {
+    display: block;
+    color: rgb(255, 254, 254);
+      padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ .section {
+    margin: 0;
+    padding: 0;
+
+ }
+
+
+ main, html {
+    height: 25%;
+  }
+
+  
+  #image {
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8sf6PZkn6t4CCwfyJo3wU9JWnRUI3CFyCDN59-IK6&s);
+  
+    height: 100%;
+  
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .video {
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+  }
+
+  tr {background-color: #fbf6f6;
+tab-size: 50%;
+}
+  
+ th {
+tab-size: 50%;
+    text-align: left;
+    background-color: #070707;
+    color: white;
+  }
+
+
+
+  footer {
+    font-weight: bold;
+  }

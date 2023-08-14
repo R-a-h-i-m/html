@@ -2,18 +2,26 @@
 <html lang="en">
 <head>
     <title> Checkpoint - This is my CV !</title>
+
+    <link rel="stylesheet" href="./style.css"/>
+    
 </head>
+
+
 <body>
 
+
     <header> 
+    
         <nav>
-           <center> 
-            <button type="select">HOME</button> 
-            <button type="select"><a href="#ABOUT">ABOUT</a></button>
-            <button type="select"><a href="#WORK">WORK</a></button>
-            <button type="select"><a href="#RESUME">RESUME</a></button>
-            <button type="select"><a href="#CONTACT">CONTACT</a></button>
-            </center>
+    
+            <ul class="navbar"> 
+                <li class="nav"><a href="#ABOUT">ABOUT</a></li>
+                <li class="nav"><a href="#WORK">WORK</a></li>
+                <li class="nav"><a href="#RESUME">RESUME</a></li>
+                <li class="nav"><a href="#CONTACT">CONTACT</a></li>
+              </ul> 
+                
         </nav>
                        
     </header>
@@ -21,9 +29,16 @@
     <main>
 
           <div class="section"> 
+            <br>
                <a name="DavidGOMYCODE"></a>
-               <h1> David GOMYCODE</h1> 
-               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8sf6PZkn6t4CCwfyJo3wU9JWnRUI3CFyCDN59-IK6&s" /> 
+               <h1> David GOMYCODE</h1>
+          </div>
+            
+          <div id="image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8sf6PZkn6t4CCwfyJo3wU9JWnRUI3CFyCDN59-IK6&s" />  
+
+            </div>
+              
          </div>
 
                 
@@ -33,7 +48,7 @@
                 <p>I am a passionate developer with a creative mindset trying to make a new website</p>
                 <p>Check out my video resume !</p>
                 <br>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/0LNkyvVeCi4?si=CN2Jzvt1aaYCUnjb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="video" width="660" height="415" src="https://www.youtube.com/embed/0LNkyvVeCi4?si=CN2Jzvt1aaYCUnjb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
          </div>
 
 
@@ -90,7 +105,7 @@
     </main>
 
     <footer> 
-        <center>All rights reserved David GOMYCODE</center> 
+        <center>© All rights reserved David GOMYCODE</center> 
     </footer>
 
 </body>
